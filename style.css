@@ -1,0 +1,25 @@
+.menu{
+    background-color: #ccc;
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    border-right: 3px solid #000;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.menu ul li a:hover{
+   background-color: aquamarine;
+   color: red;
+}
